@@ -88,6 +88,33 @@ $$</p>
     
 
 
+    <div class="post-comments">
+      
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+        clientID: '1635cdf35ddf79209f19',
+        clientSecret: '60dffb730613d50fa9e53451d015fb4c2bcc927b',
+        repo: 'always-web.github.io',
+        owner: '13183584',
+        admin: ['13183584'],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+
+    </div>
+
     <ul class="pager article-pager">
       <li class="pager-newer">
           <a href="/posts/placeholder-text/" data-toggle="tooltip" data-placement="top" title="Placeholder Text">&lt; Newer</a>
