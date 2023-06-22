@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Whiteplain</title>
+    <title>Categories on always-web</title>
     <link>https://always-web.github.io/categories/</link>
-    <description>Recent content in Categories on Whiteplain</description>
+    <description>Recent content in Categories on always-web</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <copyright>&amp;copy; Copyright 2017 Foo Bar</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://always-web.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>&amp;copy; Copyright 2023 always-web</copyright>
+    <lastBuildDate>Wed, 21 Jun 2023 17:43:29 +0800</lastBuildDate><atom:link href="https://always-web.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shell</title>
+      <link>https://always-web.github.io/categories/shell/</link>
+      <pubDate>Wed, 21 Jun 2023 17:43:29 +0800</pubDate>
+      
+      <guid>https://always-web.github.io/categories/shell/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>syntax</title>
       <link>https://always-web.github.io/categories/syntax/</link>
